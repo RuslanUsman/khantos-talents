@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5; /* Светло-серый фон */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4f4f4f; /* Темно-серый заголовок */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #d3d3d3;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4f4f4f; /* Темно-серый фон кнопки */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  button:hover {
+    background-color: #6f6f6f;
+  }
+  
+
+
+
+
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    img {
+      max-width: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h3 {
+      font-size: 1rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  

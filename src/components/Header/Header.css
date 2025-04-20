@@ -1,0 +1,71 @@
+/* Header.css */
+
+/* Общие настройки заголовка */
+.header {
+  background: linear-gradient(135deg, #1a1a1a, #444); /* Тёмный фон */
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Эффект глубины */
+}
+
+.header-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase; /* Заглавные буквы */
+  text-align: center;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Глубокая тень для заголовка */
+  margin-bottom: 20px;
+}
+
+/* Контейнер поиска */
+.search-container {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2em;
+  border: 2px solid #f4a261; /* Оранжевый акцент */
+  border-radius: 10px; /* Скруглённые края */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Эффект глубины */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  box-shadow: 0 6px 12px rgba(255, 165, 0, 0.8); /* Светящийся эффект */
+  transform: scale(1.05); /* Лёгкое увеличение */
+}
+
+/* Список подсказок */
+.suggestions-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  background-color: rgba(34, 40, 49, 0.9); /* Тёмный фон */
+  border: 2px solid #f4a261; /* Оранжевая окантовка */
+  border-radius: 10px; /* Скруглённые края */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.suggestion-item {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #f4a261;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Лёгкая линия между элементами */
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none; /* Убрать линию у последнего элемента */
+}
+
+.suggestion-item:hover {
+  background-color: rgba(255, 165, 0, 0.9); /* Яркий фон при наведении */
+  color: #000; /* Тёмный текст для контраста */
+  box-shadow: 0 4px 8px rgba(255, 165, 0, 0.8); /* Эффект свечения */
+}

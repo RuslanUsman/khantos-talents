@@ -1,0 +1,60 @@
+/* Footer.css */
+
+.footer {
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a1a, #444); /* Постапокалиптический фон */
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.7); /* Эффект глубины */
+  }
+  
+  .footer-text {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #f4a261; /* Оранжевый акцент */
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Глубокая тень */
+  }
+  
+  .telegram-button {
+    background-color: rgba(34, 40, 49, 0.9); /* Тёмный фон кнопки */
+    border: 2px solid #f4a261; /* Оранжевая окантовка */
+    border-radius: 50%; /* Круглая форма кнопки */
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .telegram-button:hover {
+    transform: scale(1.1); /* Легкое увеличение при наведении */
+    box-shadow: 0 6px 12px rgba(255, 165, 0, 0.7); /* Эффект свечения */
+  }
+  
+  .telegram-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+
+
+
+  /* Кнопка "Главное меню" */
+.main-menu-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #4f4f4f, #232323); /* Металлическая текстура */
+  border: 2px solid #5a5a5a; /* Серый границы */
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Тень */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-menu-button:hover {
+  background-color: #1a1a1a; /* Темный эффект при наведении */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.7); /* Сильная тень */
+}

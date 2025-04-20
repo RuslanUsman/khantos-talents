@@ -1,0 +1,48 @@
+/* MainMenu.css */
+
+/* Общие настройки */
+.main-menu {
+  text-align: center;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #1a1a1a, #444); /* Тёмный постапокалиптический фон */
+  background-attachment: fixed;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.menu-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Глубокая тень для текста */
+}
+
+.menu-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Небольшое расстояние между кнопками */
+}
+
+.menu-button {
+  background-color: #333; /* Темный цвет фона */
+  border: 2px solid #f4a261; /* Оранжевая окантовка, как свет костра */
+  color: #f4a261; /* Цвет текста, создающий ощущение выживания */
+  font-size: 1.5em; /* Увеличенный размер текста для акцента */
+  text-transform: uppercase; /* Заглавные буквы */
+  font-weight: bold;
+  padding: 15px 25px; /* Пространство внутри кнопки */
+  width: 80%; /* Умеренная ширина кнопки */
+  max-width: 700px;
+  border-radius: 10px; /* Скругленные края кнопки */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Эффект глубины */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-button:hover {
+  transform: scale(1.1); /* Легкое увеличение при наведении */
+  box-shadow: 0 6px 12px rgba(255, 165, 0, 0.7); /* Свечение, напоминающее огонь */
+}
+

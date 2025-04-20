@@ -1,0 +1,24 @@
+.talent-details {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a1a, #444);
+    color: #fff;
+    min-height: 100vh;
+  }
+  
+  .talent-details img {
+    max-width: 400px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+  
+  .talent-details button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #f4a261;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

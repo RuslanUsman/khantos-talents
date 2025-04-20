@@ -1,0 +1,81 @@
+/* fight.css */
+
+/* Общие настройки для контейнера */
+.container {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #1a1a1a, #444); /* Постапокалиптический фон */
+  color: #fff;
+  min-height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Эффект глубины */
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Тень для заголовка */
+  color: #f4a261; /* Оранжевый акцент */
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+li {
+  background-color: rgba(34, 40, 49, 0.9); /* Тёмный фон карточки */
+  border: 2px solid #f4a261; /* Оранжевая окантовка */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Эффект глубины */
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+  transform: scale(1.05); /* Лёгкое увеличение карточки */
+  box-shadow: 0 6px 12px rgba(255, 165, 0, 0.7); /* Эффект свечения */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin: 10px 0;
+  color: #f4a261; /* Оранжевый цвет текста */
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #eee; /* Светлый текст */
+}
+
+/* Кнопка возврата */
+button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(34, 40, 49, 0.9);
+  border: 2px solid #f4a261;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1); /* Увеличение кнопки при наведении */
+  box-shadow: 0 5px 10px rgba(255, 165, 0, 0.7); /* Эффект свечения */
+}

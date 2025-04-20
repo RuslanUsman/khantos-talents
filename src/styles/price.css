@@ -1,0 +1,50 @@
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+
+
+
+
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    img {
+      max-width: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h3 {
+      font-size: 1rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  
+
+  .description-images {
+    margin-top: 10px;
+  }
+  
+  .additional-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  

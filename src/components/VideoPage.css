@@ -1,0 +1,75 @@
+/* VideoPage.css */
+
+/* Общие настройки */
+.video-page {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #1a1a1a, #444); /* Постапокалиптический фон */
+    color: #fff;
+    min-height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Эффект глубины */
+  }
+  
+  .video-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Тень для заголовка */
+    color: #f4a261; /* Оранжевый акцент */
+  }
+  
+  .video-player {
+    width: 90%;
+    max-width: 800px;
+    border: 2px solid #f4a261; /* Оранжевая окантовка */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Эффект глубины */
+    margin: 20px auto;
+  }
+  
+  .video-description {
+    font-size: 1.2em;
+    margin: 15px 0;
+    color: #eee; /* Светлый текст */
+  }
+  
+  /* Контейнер кнопки */
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(34, 40, 49, 0.9); /* Тёмный фон кнопки */
+    border: 2px solid #f4a261; /* Оранжевая окантовка */
+    border-radius: 10px; /* Скруглённые края кнопки */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .back-button:hover {
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+    box-shadow: 0 5px 10px rgba(255, 165, 0, 0.7); /* Эффект свечения */
+  }
+  
+  /* Медиа-запрос для мобильных устройств */
+  @media screen and (max-width: 600px) {
+    .video-player {
+      width: 100%; /* Видео занимает всю ширину экрана */
+      height: auto; /* Сохранение пропорций */
+      border-radius: 5px; /* Меньшие скругления для мобильных устройств */
+    }
+  
+    .video-title {
+      font-size: 2em; /* Уменьшенный размер заголовка */
+    }
+  
+    .back-button {
+      padding: 10px 20px; /* Уменьшенные отступы для мобильных устройств */
+      font-size: 1em;
+    }
+  }
+  
