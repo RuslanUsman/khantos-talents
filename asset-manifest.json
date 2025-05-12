@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/khantos-talents/static/css/main.56902868.css",
-    "main.js": "/khantos-talents/static/js/main.1746c7c2.js",
+    "main.css": "/khantos-talents/static/css/main.71cf9584.css",
+    "main.js": "/khantos-talents/static/js/main.c51b20b5.js",
     "static/js/453.a8ff2582.chunk.js": "/khantos-talents/static/js/453.a8ff2582.chunk.js",
     "index.html": "/khantos-talents/index.html",
-    "main.56902868.css.map": "/khantos-talents/static/css/main.56902868.css.map",
-    "main.1746c7c2.js.map": "/khantos-talents/static/js/main.1746c7c2.js.map",
+    "main.71cf9584.css.map": "/khantos-talents/static/css/main.71cf9584.css.map",
+    "main.c51b20b5.js.map": "/khantos-talents/static/js/main.c51b20b5.js.map",
     "453.a8ff2582.chunk.js.map": "/khantos-talents/static/js/453.a8ff2582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56902868.css",
-    "static/js/main.1746c7c2.js"
+    "static/css/main.71cf9584.css",
+    "static/js/main.c51b20b5.js"
   ]
 }
